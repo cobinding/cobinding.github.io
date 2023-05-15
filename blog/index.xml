@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on cobinding</title>
+    <link>https://cobinding.github.io/blog/</link>
+    <description>Recent content in Blog on cobinding</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate><atom:link href="https://cobinding.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a new Website</title>
+      <link>https://cobinding.github.io/blog/first-blog/</link>
+      <pubDate>Tue, 31 Dec 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://cobinding.github.io/blog/first-blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Making a second Blog (assignment)!!</title>
+      <link>https://cobinding.github.io/blog/second-blog/</link>
+      <pubDate>Tue, 31 Dec 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://cobinding.github.io/blog/second-blog/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

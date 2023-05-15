@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-gb"><head>
+  <meta charset="utf-8">
+  <title>cobinding</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="I&#39;m a second year Computer Science student at Durham">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Sam Robbins">
+  <meta name="generator" content="Hugo 0.92.2" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <link rel="alternate" type="application/rss+xml" href="https://cobinding.github.io/index.xml" title="cobinding" />
+<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li class="uk-active "><a style="font-size: 18px; text-transform: none"
+                        href="https://cobinding.github.io"> Home </a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/blog">Blog</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/portfolio">Portfolio</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/contact">Contact</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li class="uk-active"><a style="font-size: 18px" href="https://cobinding.github.io"> Home </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/blog">Blog</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/contact">Contact</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+
+<!-- Hexagon Stylesheet -->
+
+<link rel="stylesheet" href="/css/hexagon.min.css">
+
+<!-- Index -->
+
+<link rel="stylesheet" href="/css/index.min.css">
+
+<section>
+    
+    <div class="uk-container uk-margin-large-top uk-margin-xlarge-bottom">
+
+        <h1 class="uk-heading-large">Hi! I’m cobinding</h1>
+    </div>
+
+
+</section>
+
+<div class="uk-text-center uk-margin-xlarge-bottom uk-margin-xlarge-top">
+    <ul id="links" class="icons">
+        
+        
+           
+        <li><a href="https://github.com/cobinding"> <img
+                    class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub" loading="lazy"> </a></li>
+           
+        <li><a href="mailto:cntpqls0218@gmail.com" > <img
+                    class="contain" src="https://cdn.svgporn.com/logos/google-gmail.svg" alt="Gmail" loading="lazy"></a></li>
+          
+    </ul>
+
+
+</div>
+
+
+
+
+
+<section class="uk-margin-large-top">
+    <div class="uk-container">
+        <div class="uk-text-center">
+            
+            <p class="uk-text-lead">Computer Science Student</p>
+            
+            <a class="uk-button uk-button-text" href="https://cobinding.github.io/about">ABOUT ME</a>
+            
+            
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="modal_JavaScript" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">JavaScript</h2>
+        </div>
+        <p>Details coming soon, contact me if you want to know more</p>
+    </div>
+</div>
+
+
+<section class="uk-margin-large-top uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Skills</span></h1>
+
+        <p class="uk-text-center uk-text-lead"><i>Click the images below to find out more</i></p>
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+            uk-grid>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_JavaScript">
+                <h4>JavaScript</h4>
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
+
+        <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">init.g</h3>
+                        </div>
+                        <p style="height: 4em">Google</p>
+                        <p>November 2019</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-top uk-margin-medium-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Certifications</span></h1>
+
+        <p class="uk-text-center uk-text-lead"><i>Click the images below to view the proof</i></p>
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+             uk-grid >
+            
+            <a href="https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url" class="imagemargin">
+                <img class="contain certs" src="https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg" alt="Microsoft Azure Fundamentals" loading="lazy" style="cursor: pointer">
+                Microsoft Azure Fundamentals
+            </a>
+
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line uk-heading-medium "><span>Hackathons</span></h1>
+    </div>
+    <p class="uk-text-center uk-text-lead"><i>Hover over the logos to find out more</i></p>
+</section>
+<div class="uk-container uk-margin-large-bottom uk-text-center">
+    <ul id="hexGrid">
+        
+        <li class="hex">
+            <div class="hexIn">
+                <div class="hexLink">
+                    <img src="https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png" alt="Hack Cambridge 2019" loading="lazy" />
+                    
+                    <div style="all:unset">
+
+                        <h1>
+                            Hack Cambridge 2019</h1>
+                    </div>
+                    
+                    
+                    <div style="all:unset">
+                        <p>
+                            Climate change simulator</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<section class="uk-margin-xlarge-bottom">
+    <div class="uk-container">
+
+        <h1 class="uk-heading-line uk-heading-medium  uk-margin-large-bottom"><span>Education</span></h1>
+
+
+        <div class=" uk-grid-large uk-child-width-1-3@s uk-child-width-1  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">Durham University</h3>
+                        </div>
+                        <p style="height: 4em">BSc Computer Science</p>
+                        <p>2018 - Present</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+</section>
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:samrobbinsgb@gmail.com">samrobbinsgb@gmail.com</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+          <div uk-lightbox>
+            <a href="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&amp;key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U" data-caption="Durham, UK"
+               data-type="iframe">Durham, UK</a>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+      2023
+      Sam Robbins
+    </div>
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
